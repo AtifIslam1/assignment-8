@@ -10,4 +10,30 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 60px;
+    width: fit-content;
+}
+@media screen and (max-width: 480px) {
+    .page
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .page .product-container
+    {
+        grid-template-columns: repeat(1, 1fr);
+    width: min-content;
+    }
+    .page .cart-container
+    {
+        width: fit-content;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 1030px) {
+    .page
+    {
+        grid-template-columns: 2fr 1fr;
+    }
+    .page .product-container
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

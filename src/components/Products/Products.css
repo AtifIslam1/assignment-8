@@ -37,3 +37,17 @@
 {
     background: hotpink;
 }
+
+@media screen and (max-width: 480px) {
+    .product img
+    {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1030px) {
+    .product img
+    {
+        width: 120px;
+    }
+}
