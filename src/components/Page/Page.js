@@ -31,6 +31,18 @@ const Page = () => {
         setCart(newcart);
     }
 
+    const chooseOne = () => {
+        if (cart.length === 0) {
+            // added alert cuz i didn't had much time.....sorry
+            alert('Add Something Please')
+        }
+        else {
+            const choosen = [Math.floor(Math.random(5) * cart.length)]
+            let newCart = [cart[choosen]]
+            setCart(newCart)
+        }
+    }
+
     return (
         <div className='page'>
             <div className='product-container'>
@@ -43,7 +55,7 @@ const Page = () => {
                 }
             </div>
             <div className='cart-container'>
-                <Cart cart={cart} reset={reset}></Cart>
+                <Cart cart={cart} reset={reset} chooseOne={chooseOne}></Cart>
             </div>
         </div>
     );
