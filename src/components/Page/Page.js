@@ -37,7 +37,7 @@ const Page = () => {
             alert('Add Something Please')
         }
         else {
-            const choosen = [Math.floor(Math.random(5) * cart.length)]
+            const choosen = [Math.floor(Math.random(1, 5) * cart.length)]
             let newCart = [cart[choosen]]
             setCart(newCart)
         }
