@@ -2,7 +2,7 @@ import React from 'react';
 import CartProduct from '../CartProduct/CartProduct';
 import './Cart.css';
 
-const Cart = ({cart}) => {
+const Cart = ({cart, reset}) => {
     return (
         <div className='cart'>
             <h2>Selected Books</h2>
@@ -11,7 +11,7 @@ const Cart = ({cart}) => {
             }
             <div className="btns">
             <button className='btn'>Choose 1 for me</button>
-            <button className='btn'>Reset</button>
+            <button className='btn' onClick={reset}>Reset</button>
             </div>
         </div>
     );

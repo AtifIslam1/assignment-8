@@ -26,6 +26,11 @@ const Page = () => {
         setCart(newCart);
     }
 
+    const reset = () => {
+        let newcart = [];
+        setCart(newcart);
+    }
+
     return (
         <div className='page'>
             <div className='product-container'>
@@ -38,7 +43,7 @@ const Page = () => {
                 }
             </div>
             <div className='cart-container'>
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} reset={reset}></Cart>
             </div>
         </div>
     );
