@@ -1,0 +1,38 @@
+.cart
+{
+    position: sticky;
+    top: 0;
+    background-color: bisque;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 20px;
+    width: auto;
+}
+
+.btns
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 75%;
+}
+.btns .btn
+{
+    margin-bottom: 8px;
+    padding: 6px 12px;
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    outline: none;
+    border: 3px solid hotpink;
+    border-radius: 40px;
+}
+.btns .btn:hover
+{
+    background: #000;
+    color: #fff;
+}
+.btns .btn:active
+{
+    background: hotpink;
+}

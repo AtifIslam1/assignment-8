@@ -1,0 +1,13 @@
+.page
+{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.page .product-container
+{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 60px;
+}

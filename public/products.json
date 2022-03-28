@@ -3,60 +3,70 @@
     "id": "623e201b165ad03507b8eb8b",
     "name": "Bangla-1",
     "image": "../../images/ban-1.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   },
   {
     "id": "623e201bbf5080b94a02439f",
     "name": "Bangla-2",
     "image": "../../images/ban-2.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   },
   {
     "id": "623e201b1141e5961f4b1a43",
     "name": "English-1",
     "image": "../../images/eng-1.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   },
   {
     "id": "623e201b91f216c9cdf90a84",
-    "name": "Islam And Moral Education",
+    "name": "Islam",
     "image": "../../images/Islam.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   },
   {
     "id": "623e201b1131016e528f3c30",
     "name": "Biology",
     "image": "../../images/biology.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   },
   {
     "id": "623e201b1b7206ad64a158a7",
     "name": "Chemestry",
     "image": "../../images/chemestry.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   },
   {
     "id": "623e201b95aae6fcb06f56dc",
     "name": "Physics",
     "image": "../../images/physics.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   },
   {
     "id": "623e201bc2fbabb282f0b079",
     "name": "ICT",
     "image": "../../images/ict.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   },
   {
     "id": "623e201b5f59ae693996d132",
     "name": "Higher-Math",
     "image": "../../images/h-math.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   },
   {
     "id": "623e201b03259af7be3a1d08",
     "name": "General-Math",
     "image": "../../images/g-math.jpg",
+    "quantity": "0",
     "price": "300 Tk"
   }
 ]
