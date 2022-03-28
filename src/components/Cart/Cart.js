@@ -7,7 +7,7 @@ const Cart = ({cart}) => {
         <div className='cart'>
             <h2>Selected Books</h2>
             {
-                cart.map(product => <CartProduct product={product}></CartProduct>)
+                cart.map(product => <CartProduct product={product} key={product.id}></CartProduct>)
             }
             <div className="btns">
             <button className='btn'>Choose 1 for me</button>

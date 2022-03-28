@@ -14,16 +14,17 @@ const Page = () => {
 
     const addToCart = (selectedProduct) => {
         let newCart = [];
-        newCart = [...cart, selectedProduct];
         const exist = cart.find(product => product.id === selectedProduct.id);
         if (exist) {
-            const added = selectedProduct.quantity + 1
-            newCart = [...cart, selectedProduct]
+            selectedProduct.quantity = JSON.parse(selectedProduct.quantity) + 1;
+            newCart = [...cart]
+        }
+        else {
+            JSON.parse(selectedProduct.quantity = 1)
+            newCart = [...cart, selectedProduct];
         }
         setCart(newCart);
     }
-
-
 
     return (
         <div className='page'>

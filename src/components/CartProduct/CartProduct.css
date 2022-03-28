@@ -2,17 +2,19 @@
 {
     border: 2px solid hotpink;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 6px 12px;
+    margin: 12px 0px;
+}
+.cart-product .details
+{
     display: flex;
     align-items: center;
-    margin: 12px 0px;
 }
 .cart-product img
 {
     width: 40px;
     margin-right: 12px;
-}
-.cart-product .quantity
-{
-    margin-left: 40px;
 }
